@@ -5,9 +5,9 @@ recycle on the remaining amount (according to the amortization schedule table) w
 a fixed interest of 4.5% for an additional 48 payments.
 
 Solution:
-CREATE PROCEDURE GenerateAmortizationSchedule
-AS
-BEGIN
+
+    CREATE PROCEDURE GenerateAmortizationSchedule AS
+    BEGIN
     SET NOCOUNT ON;
 
     -- Declarations
